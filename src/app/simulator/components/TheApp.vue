@@ -138,7 +138,7 @@ export default {
 
   computed: {
     isValidLoan () {
-      if (this.lending === '0,00' || this.interest === '0,00' || !this.parcelSelected) return true
+      if (this.lending === '0.00' || this.interest === '0.00' || !this.parcelSelected) return true
       if (!this.$utils.isBetween('0,00', '100.000,00', this.lending)) return true
       if (!this.$utils.isBetween('3,00', '8,00', this.interest)) return true
 
