@@ -4,7 +4,9 @@
   "description": "challenge bizCapital",
   "author": "Vinicius Azevedo <viniazvd@gmail.com>",
   "private": true,
+  "homepage": "https://viniazvd.github.io/table-price-simulator/",
   "scripts": {
+    "deploy": "npm run build && ./node_modules/.bin/gh-pages -d build",
     "dev": "node build/dev-server.js",
     "start": "node build/dev-server.js",
     "build": "node build/build.js"
