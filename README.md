@@ -1,7 +1,3 @@
-# Desafio BizFront - Simulador
-
-Criar um projeto de simulador de parcelas de um financiamento usando **vue** e **vue-cli** com **webpack**
-
 # Requisitos funcionais 
 
 * O simulador deve receber as informações relativas ao potencial empréstimo por meio de uma página web
