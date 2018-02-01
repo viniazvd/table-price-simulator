@@ -11,15 +11,17 @@
 
 # Requisitos não funcionais
 
-* A tela deve alterar os dados similação conforme o usuário informa os dados no simulador (tempo real)
 * Deve ser utilizado o https://httpbin.org/ para simular requisições **GET** e **POST**
 * O código fonte deve estar disponível no **github**
 * O projeto deve ser publicado na pasta `/docs` do **github** e habilitar o **github-pages** com o endereço https://{usuario}.github.io/{repositorio} apontando para a pasta `/docs` que torne 
 * O tamanho final do projeto na pasta docs não pode ser maior que 2MB
 
-## Recomendações
-
-* Bootstrap 4
-* Webstorm
-* lodash ou underscore 
-* Não usar jquery, angular ou react# table-price-simulator
+## Principais dependencias
+* "vue": "^2.3.3",
+* "vuex": "^2.3.1"
+* "axios": "^0.16.2",
+* "bootstrap-vue": "^2.0.0-rc.1",
+* "ramda": "^0.25.0",
+* "v-money": "^0.8.1",
+* "vue-spinner": "^1.0.3",
+* "vuelidate": "^0.6.1",
