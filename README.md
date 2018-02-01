@@ -1,3 +1,12 @@
+## Build Setup
+
+``` bash
+# install dependencies
+npm install
+
+# serve with hot reload at localhost:8080
+npm run dev
+
 # Requisitos funcionais 
 
 * O simulador deve receber as informações relativas ao potencial empréstimo por meio de uma página web
