@@ -1,12 +1,12 @@
-## Build Setup
+# Build Setup
 # install dependencies
 npm install
 
-# serve with hot reload at localhost:8080
+## serve with hot reload at localhost:8080
 npm run dev
 
-## Requisitos
-# Requisitos funcionais 
+# Requisitos
+## Requisitos funcionais 
 
 * O simulador deve receber as informações relativas ao potencial empréstimo por meio de uma página web
 * Usuário deve informar o valor que deseja simular de empréstimo (até R$ 100 mil)
@@ -17,14 +17,14 @@ npm run dev
 * Alterar tela para solicitar o email e cnpj
 * Dados devem ser validados no cliente e submetidos
 
-# Requisitos não funcionais
+## Requisitos não funcionais
 
 * Deve ser utilizado o https://httpbin.org/ para simular requisições **GET** e **POST**
 * O código fonte deve estar disponível no **github**
 * O projeto deve ser publicado na pasta `/docs` do **github** e habilitar o **github-pages** com o endereço https://{usuario}.github.io/{repositorio} apontando para a pasta `/docs` que torne 
 * O tamanho final do projeto na pasta docs não pode ser maior que 2MB
 
-## Principais dependencias
+# Principais dependencias
 * "vue": "^2.3.3",
 * "vuex": "^2.3.1"
 * "axios": "^0.16.2",
